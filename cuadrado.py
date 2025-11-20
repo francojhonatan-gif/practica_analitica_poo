@@ -1,6 +1,6 @@
 class Cuadrado :
-    def __init__(self,lado):
+    def __init__(self, lado):
         self.lado = lado
-        
-    def area (self):
-        return self.lado*self.lado
+
+    def area(self):
+        return self.lado * self.lado

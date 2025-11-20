@@ -1,7 +1,7 @@
-class Triangulo :
+class Paralelogramo :
     def __init__(self,base,altura):
         self.base = base
         self.altura = altura
         
     def area (self):
-        return self.base * self.base
+        return self.base * self.altura
